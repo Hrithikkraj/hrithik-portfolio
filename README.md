@@ -49,16 +49,25 @@ This is an interactive, multimodal portfolio website built with **React + Vite**
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of:
-> - Homepage animated hero
-> - Project card hover effect
-> - Mobile swipe interface
-> - Avatar greeting section
-> - Responsive layout views
-
----
 
 ## 📂 Project Structure
+
+portfolio/
+├── public/                      # Static assets (e.g., favicon, images not imported in JS)
+│   └── index.html               # Root HTML file
+│
+├── src/                         # Main source code
+│   ├── assets/                  # Images, icons, fonts
+│   ├── components/              # Reusable components (Navbar, Footer, ProjectCard, etc.)
+│   ├── pages/                   # Top-level pages (Home.jsx, Projects.jsx, Contact.jsx)
+│   ├── styles/                  # Optional: global CSS, variables, or SCSS files
+│   ├── App.jsx                  # Main application structure
+│   └── main.jsx                 # React root render file
+│
+├── .gitignore                   # Git ignore rules
+├── package.json                 # Project metadata and scripts
+├── README.md                    # Project documentation
+├── vite.config.js               # Vite configuration
+└── index.html                   # May redirect to /public if not using Vite default
+
 
