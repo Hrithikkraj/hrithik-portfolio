@@ -6,7 +6,7 @@ This is an interactive, multimodal portfolio website built with **React + Vite**
 
 - ⚛️ React.js
 - ⚡ Vite
-- 🎨 CSS3 / SCSS
+- 🎨 CSS
 - 🧩 GSAP (GreenSock Animation Platform)
 - 📱 SwiperJS (mobile gestures)
 - 🧠 react-typing-effect
