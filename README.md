@@ -58,9 +58,8 @@ portfolio/
 │
 ├── src/                         # Main source code
 │   ├── assets/                  # Images, icons, fonts
-│   ├── components/              # Reusable components (Navbar, Footer, ProjectCard, etc.)
-│   ├── pages/                   # Top-level pages (Home.jsx, Projects.jsx, Contact.jsx)
-│   ├── styles/                  # Optional: global CSS, variables, or SCSS files
+│   ├── components/              # Reusable components (Navbar, home, ProjectCard, etc.)       
+│   ├── index.css                # Global margins, padding, and box-sizing.
 │   ├── App.jsx                  # Main application structure
 │   └── main.jsx                 # React root render file
 │
