@@ -1,12 +1,64 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an interactive, multimodal portfolio website built with **React + Vite**, showcasing projects, skills, and experiences through rich user interfaces and cognitive-friendly design principles.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 CSS3 / SCSS
+- 🧩 GSAP (GreenSock Animation Platform)
+- 📱 SwiperJS (mobile gestures)
+- 🧠 react-typing-effect
+- ☁️ GitHub Pages for deployment
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### ✅ Core Requirements
+
+#### 1. **Multimodal Interaction**
+- **Visual**: Smooth animated transitions using GSAP.
+- **Tactile**: Swipe gestures (SwiperJS) for project cards on mobile.
+- **Hover-based**: 3D transformations on hover for desktop users.
+
+#### 2. **Mixed Reality Integration**
+- Pseudo-AR 3D effects on project cards via `transform: perspective`.
+- Immersive card tilt animations based on cursor position.
+
+#### 3. **Responsive & Context-Aware Design**
+- Mobile-first design using Flexbox, Grid & media queries.
+- Theme adapts based on time of day (light/dark mode auto toggle).
+
+#### 4. **Intelligent Avatar Assistant**
+- Virtual typing assistant greets users with messages.
+- Adapts messages based on context.
+
+#### 5. **Social Interaction**
+- Includes a feedback/testimonial section.
+- Google Form used for collecting visitor testimonials.
+
+---
+
+### 🧠 Cognitive Design Features
+
+- **Memory & Attention**: Chunked content with consistent icon use.
+- **Cognition & Action**: Clear hierarchy, intuitive buttons & interactions.
+- **Perception & Navigation**: Navigation highlights, tooltips, scroll-linked active sections.
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of:
+> - Homepage animated hero
+> - Project card hover effect
+> - Mobile swipe interface
+> - Avatar greeting section
+> - Responsive layout views
+
+---
+
+## 📂 Project Structure
+
